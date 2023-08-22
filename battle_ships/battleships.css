@@ -1,0 +1,89 @@
+header{
+    width: 100%;
+}
+h1{
+color:black;
+}
+
+h1:hover{
+    color: antiquewhite;
+    background-color: blueviolet;
+    margin-left: 5em;
+    margin-right: 5em;
+    border: 5px solid green;
+    width: 60%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+   
+
+#abc{
+    font-size:  1.5rem;
+    color:green;
+    border:double 5px blueviolet;
+    padding: 3rem;
+    background-color:lavender ;
+    margin: 5em;
+    outline: 0.6rem solid teal;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+   
+
+figcaption{
+    color: inherit;
+}
+#def{
+    font-size: 1.5rem;
+    color:green;
+    border: 5px double blueviolet;
+    padding: 3rem;
+    margin: 5em;
+    outline: 0.6rem solid royalblue;
+    background-color:peachpuff ;
+    line-height: 2.5rem;
+
+}
+ul {
+    text-align:justify;
+}
+#ghi{
+    font-size: 1.5rem;
+    color:green;
+    border: 5px double blueviolet;
+    padding: 3rem;
+    margin: 5em;
+    outline: 0.6rem solid pink;
+    background-color:rgba(255, 255, 0,0.3);
+    line-height: 2.5rem;
+}
+#jkl{
+    margin: 5rem;
+    padding: 0;
+}    
+
+#navigation{
+    padding: 1rem;
+    background-color:rgba(255, 255, 0,0.3);
+    color: antiquewhite;
+    height: 10vh;
+    font-size: 1.5rem;
+    margin: 5em;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-evenly;
+    list-style-type:none;
+}
+#navigation li:hover{
+    background-color: rgba(0, 225, 255, 0.911);
+
+}
+#navigation li{
+    margin: 5px;
+    padding: 8px;
+    background-color: whitesmoke ;
+}
+#navigation li a{
+   text-decoration: none;
+}
